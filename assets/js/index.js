@@ -17,7 +17,6 @@ const getNotes = () => {
 
 // A function for saving a note to the db
 const saveNote = (note) => {
-  alert("you did it")
   return $.ajax({
     url: "/api/notes",
     data: note,
@@ -27,6 +26,7 @@ const saveNote = (note) => {
 
 // A function for deleting a note from the db
 const deleteNote = (id) => {
+  alert("Deleted")
   return $.ajax({
     url: "api/notes/" + id,
     method: "DELETE",
@@ -105,14 +105,8 @@ const handleRenderSaveBtn = function () {
 // Render's the list of note titles
 const renderNoteList = (notes) => {
   console.log("rendering notes!")
-  console.log(notes);
-  console.log(typeof notes);
-  console.log(notes instanceof Array)
   if (typeof notes === 'object') {
-
-    console.log("typeof notes is Array")
     $noteList.empty();
-
     const noteListItems = [];
 
     // Returns jquery object for li with given text and delete button
@@ -143,7 +137,6 @@ const renderNoteList = (notes) => {
     $noteList.append(noteListItems);
   };
 }
-
 // Gets notes from the db and renders them to the sidebar
 const getAndRenderNotes = () => {
   return getNotes().then(renderNoteList);
