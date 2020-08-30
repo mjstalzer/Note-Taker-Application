@@ -14,7 +14,7 @@
   ## 1. Installation:
   * No intallation; the app is deployed on heroku.
   ## 2. Usage:
-  * Go here to test this app!
+  * Go [here](https://mysterious-sierra-11038.herokuapp.com/) to test this app!
   ## 3. Contribution:
   * N/A
   ## 4. License:
