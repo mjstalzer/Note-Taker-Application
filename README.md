@@ -4,8 +4,8 @@
   ### Description: This is my first app deployed on Heroku. It involves an express server with get, post, and delete requests. The user can keep notes stored on this app to keep organized and on schedule.  
   
   ### Table of Contents: 
-  1. [Installation](#1.-installation:)  
-  2. [Usage](#2.-usage:)  
+  1. [Installation](#1.-installation)  
+  2. [Usage](#2.-usage)  
   3. [Contributing](#3.-contribution) 
   4. [License](#4.-license)   
   5. [Tests](#5.-tests)  
