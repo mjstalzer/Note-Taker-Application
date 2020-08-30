@@ -2,7 +2,7 @@
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   ### Description: This is my first app deployed on Heroku. It involves an express server with get, post, and delete requests. The user can keep notes stored on this app to keep organized and on schedule.  
-  
+ 
   ### Table of Contents: 
   1. [Installation](#1.-installation)  
   2. [Usage](#2.-usage)  
@@ -10,6 +10,8 @@
   4. [License](#4.-license)   
   5. [Tests](#5.-tests)  
   6. [Questions](#6.-contact-me)   
+  
+[home page](https://github.com/mjstalzer/Note-Taker-Application/blob/master/readme-pics/Screen%20Shot%202020-08-30%20at%205.06.00%20PM.png)
 
   ## 1. Installation:
   * No intallation; the app is deployed on heroku.
