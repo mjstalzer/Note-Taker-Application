@@ -11,7 +11,7 @@
   5. [Tests](#5.-tests)  
   6. [Questions](#6.-contact-me)   
   
-[home page](https://github.com/mjstalzer/Note-Taker-Application/blob/master/readme-pics/Screen%20Shot%202020-08-30%20at%205.06.00%20PM.png)
+![home page](https://github.com/mjstalzer/Note-Taker-Application/blob/master/readme-pics/Screen%20Shot%202020-08-30%20at%205.06.00%20PM.png)
 
   ## 1. Installation:
   * No intallation; the app is deployed on heroku.
